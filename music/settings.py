@@ -43,13 +43,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 
     # Third-party
     'debug_toolbar',
     'django_extensions',
 
     # Project-specific
-    'users',
+    'users','micpro',
 ]
 
 MIDDLEWARE = [

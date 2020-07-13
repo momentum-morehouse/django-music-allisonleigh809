@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.conf import settings
 from django.urls import include, path
+from micpro import views as micpro_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('album', micpro_views.list_album,
+    name='list_album'), 
+
 ]
 
 if settings.DEBUG:
