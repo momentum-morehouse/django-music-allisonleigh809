@@ -5,6 +5,15 @@ from .models import Album
 
 # Create your views here.
 
-def list_album(request):
-  list_album = Album.objects.all()
-  return render(request, 'albums/list_album.html', context={'musiclist':list_album})
+def list_albums(request):
+    albums = Album.objects.all()
+    return render(request, "album/list_albums.html",
+                  {"albums": albums})
+
+
+
+# def list_albums(request):
+#   list_albums = Album.objects.all()
+#   return render(request, 'albums/list_albums.html', context={'musiclist':list_albums})
+
+

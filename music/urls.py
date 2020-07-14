@@ -20,8 +20,8 @@ from musiclist import views as musiclist_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', musiclist_views.list_album,
-    name='list_album'), 
+    path('', musiclist_views.list_albums,
+    name='list_albums'), 
 
 ]
 
