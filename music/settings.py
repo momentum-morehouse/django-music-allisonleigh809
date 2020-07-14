@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # Project-specific
-    'users','micpro',
+    'users','musiclist',
 ]
 
 MIDDLEWARE = [
