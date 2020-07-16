@@ -24,8 +24,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', musiclist_views.list_albums,
     name='list_albums'), 
-
+    path('albums', musiclist_views.list_albums, name='list_albums'),
+    path('albums/add', musiclist_views.add_albums, name='add_albums'),
+    path('albums/<int:pk>/delete/', musiclist_views.delete_albums, name='delete_albums'),
+    path('albums/<int:pk>/edit/',musiclist_views.edit_albums, name='edit_albums'),
 ]
+
 
 if settings.DEBUG:
     import debug_toolbar
