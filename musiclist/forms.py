@@ -7,5 +7,5 @@ class albumsForm(forms.ModelForm):
         fields = [
             'album_title',
             'artist_name',
-            'released',    
+            'date_released',    
         ]

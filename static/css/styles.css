@@ -1,5 +1,5 @@
 .original{
-  background-color: #3992EC;
+  background-color: #ECDD39;
   height: 300px;
 display: flex;
 flex-direction: row;
@@ -8,7 +8,7 @@ flex-wrap: wrap;
 }
 
 .main {
-  background-color: #EC3992;
+  background-color: #39A6EC;
 }
 
 .container {
