@@ -1,4 +1,23 @@
-.everything{
-  background-color:darkseagreen;
+.original{
+  background-color: #3992EC;
+  height: 300px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+  
 }
 
+.main {
+  background-color: #EC3992;
+}
+
+.container {
+  text-align: center;
+}
+h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color:#3992EC;
+}

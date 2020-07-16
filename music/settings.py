@@ -32,11 +32,12 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-music-allisonleigh809-1.allisonleigh808.repl.co', 'django-music-allisonleigh809-1.allisonleigh808.repl.co']
+ALLOWED_HOSTS = ['django-music-allisonleigh809-1--allisonleigh808.repl.co', 'django-music-allisonleigh809-1.allisonleigh808.repl.co']
 
 # Application definition
 
 INSTALLED_APPS = [
+    'registration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -50,7 +51,8 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # Project-specific
-    'users','musiclist',
+    'users',
+    'musiclist',
 ]
 
 MIDDLEWARE = [
